@@ -16,24 +16,39 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <style>
         /* Estilos para la barra deslizante */
-.barra {
-    overflow: hidden;
-    background-color: #f8f9fa; /* Color de fondo de la barra */
-    padding: 20px 0; /* Aumenta el espacio interno de arriba y abajo para hacerla más grande */
-    display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-}
+        .barra {
+            overflow: hidden;
+            background-color: #f8f9fa; /* Color de fondo de la barra */
+            padding: 20px 0; /* Aumenta el espacio interno de arriba y abajo para hacerla más grande */
+            display: flex;
+            justify-content: center; /* Centra los elementos horizontalmente */
+        }
 
-/* Estilos para los logos dentro de la barra */
-.logos {
-    display: flex;
-    align-items: center; /* Centra verticalmente los logos */
-}
+        /* Estilos para los logos dentro de la barra */
+        .logos {
+            display: flex;
+            align-items: center; /* Centra verticalmente los logos */
+        }
 
-.logos img {
-    height: 80px; /* Aumenta la altura de los logos para hacer la barra más grande */
-    margin-right: 40px; /* Aumenta el espacio horizontal entre logos */
-}
+        .logos img {
+            height: 80px; /* Aumenta la altura de los logos para hacer la barra más grande */
+            margin-right: 40px; /* Aumenta el espacio horizontal entre logos */
+        }
+
+        /* Estilos para resaltar el texto en verde y negrita */
+        .highlight-green-text {
+            color: #28a745;
+            font-weight: bold;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #000; /* Cambia el color del texto a negro */
+            font-weight: bold; /* Hace que el texto sea negrita */
+        }
+        .highlight-green-text {
+            color: #28a745;
+            font-weight: bold;
+        }
+
 
     </style>
 </head>
@@ -72,10 +87,10 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="index.html"><span class="highlight-green-text">Inicio</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                            <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="shop.html">Servicios</a>
@@ -137,7 +152,7 @@
                             <div class="text-align-left align-self-center">
                                 <h1 class="h1 text-success"><b>Pili</b>Brokers</h1>
                                 <h3 class="h2">Agentes Productores de Seguros  </h3>
-                                <p>Pili Brokers , te ofrecemos planes de medicina prepagada diseñados para proporcionarte acceso inmediato a servicios médicos de alta calidad. Nuestros planes están pensados para tu comodidad y tranquilidad, con atención personalizada y una red amplia de especialistas y centros médicos. Únete a nosotros y asegura tu bienestar con la mejor cobertura médica disponible.
+                                <p><strong>Pili Brokers , te ofrecemos planes de medicina prepagada diseñados para proporcionarte acceso inmediato a servicios médicos de alta calidad. Nuestros planes están pensados para tu comodidad y tranquilidad, con atención personalizada y una red amplia de especialistas y centros médicos. Únete a nosotros y asegura tu bienestar con la mejor cobertura médica disponible.</strong>
                                 </p>
                             </div>
                         </div>
@@ -154,7 +169,7 @@
                             <div class="text-align-left align-self-center">
                                 <h1 class="h1 text-success"><b>Amplia</b>Cobertura</h1>
                                 <p>
-                                    Nuestra amplia cobertura incluyen una variedad extensa de servicios, como consultas de medicina general y especializada, hospitalización, cirugías programadas y de emergencia, servicios de maternidad, cuidados intensivos, terapias físicas y ocupacionales.
+                                    <strong> Nuestra amplia cobertura incluyen una variedad extensa de servicios, como consultas de medicina general y especializada, hospitalización, cirugías programadas y de emergencia, servicios de maternidad, cuidados intensivos, terapias físicas y ocupacionales.</strong>
                                 </p>
                             </div>
                         </div>
@@ -165,12 +180,12 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_03.jpeg" alt="">
+                            <img class="img-fluid" src="./assets/img/pixelcut-export.jpeg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
                                 <h1 class="h1 text-success"><b>Prevencion y </b>bienestar</h1>
-                                <p>Nuestras aseguradoras incluyen programas de prevención y bienestar como exámenes médicos, vacunas, salud mental, nutrición, fitness y educación para promover un estilo de vida saludable y prevenir enfermedades.
+                                <p><strong>Nuestras aseguradoras incluyen programas de prevención y bienestar como exámenes médicos, vacunas, salud mental, nutrición, fitness y educación para promover un estilo de vida saludable y prevenir enfermedades.</strong>
                                 </p>
                             </div>
                         </div>
@@ -192,9 +207,11 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">Aseguradoras en Convenio</h1>
+                <h2 class="h1 font-weight-bold">Aseguradoras en Convenio</h2>
                 <p>Estas son algunas de las Aseguradoras con las cuales trabajamos desde hace mucho tiempo.</p>
             </div>
+            
+            
         </div>
         <div class="barra">
             <div class="logos">
@@ -301,7 +318,7 @@
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Informacion Adicional</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Inicio</a></li>
-                        <li><a class="text-decoration-none" href="#">Sobre Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="sobre-nosotros.html">Sobre Nosotros</a></li>
                         <li><a class="text-decoration-none" href="#">Servicios</a></li>
                         <li><a class="text-decoration-none" href="#">Contacto</a></li>
                     </ul>
