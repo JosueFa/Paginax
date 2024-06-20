@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Sobre Nosotros - Pili Brokers</title>
+    <title>Seguros de Salud</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +15,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <style>
+        /* Estilos para la barra deslizante */
+        .barra {
+            overflow: hidden;
+            background-color: #f8f9fa; /* Color de fondo de la barra */
+            padding: 20px 0; /* Aumenta el espacio interno de arriba y abajo para hacerla más grande */
+            display: flex;
+            justify-content: center; /* Centra los elementos horizontalmente */
+        }
+
+        /* Estilos para los logos dentro de la barra */
+        .logos {
+            display: flex;
+            align-items: center; /* Centra verticalmente los logos */
+        }
+
+        .logos img {
+            height: 80px; /* Aumenta la altura de los logos para hacer la barra más grande */
+            margin-right: 40px; /* Aumenta el espacio horizontal entre logos */
+        }
+
+        /* Estilos para resaltar el texto en verde y negrita */
+        .highlight-green-text {
+            color: #28a745;
+            font-weight: bold;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #000; /* Cambia el color del texto a negro */
+            font-weight: bold; /* Hace que el texto sea negrita */
+        }
+
         .interactive-box {
             background: #fff;
             border: 1px solid #ddd;
@@ -35,19 +65,15 @@
         .interactive-box h2 {
             color: #007bff;
         }
-
-        .highlight-green {
-            color: #28a745;
+        .highlight-green-title {
+        font-weight: bold;
+         color: #28a745; /* Verde */
         }
 
-        .highlight-green-text {
-            color: #28a745;
-            font-weight: bold;
-        }
-        .highlight-green {
-            color: #28a745;
-            font-weight: bold;
-        }
+      .highlight-bold-text {
+       font-weight: bold;
+       }
+
 
     </style>
 </head>
@@ -58,9 +84,9 @@
             <div class="w-100 d-flex justify-content-between">
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:pili.broker@gmail.com">pili.broker@gmail.com</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">pili.broker@gmail.com</a>
                     <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+593963626509">+593 96 362 6509</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+593 96 362 6509</a>
                 </div>
                 <div>
                     <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
@@ -86,10 +112,10 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="index.html"><span class="highlight-green-text">Inicio</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="sobre-nosotros.html"><span class="highlight-green-text">Sobre Nosotros</span></a>
+                            <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="servicios.html">Servicios</a>
@@ -110,7 +136,7 @@
                     </div>
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
+                    </a>    
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                     </a>
@@ -119,85 +145,52 @@
 
         </div>
     </nav>
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12">
+                <img src="https://www.insuranceneighbor.com/wordpress/wp-content/uploads/2016/07/Life-Insurance-Slider-Image.png" class="img-fluid w-100" alt="Seguros de Salud">
             </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <h2 class="highlight-green-title">PROTEJA SU FAMILIA</h2>
+                <p class="highlight-bold-text"><strong>Este seguro de vida brinda un resguardo frente a una posible situación de apremios económicos y el/los beneficiarios recibirá una suma de dinero en caso de fallecimiento del asegurado de la póliza. Su obligación en este contrato es el pago de las primas, en la forma estipulada de antemano.</strong></p>
+            </div>
+        </div>
+        
+        
+        <div class="row mt-4">
+            <div class="col-12 col-md-6">
+                <div class="interactive-box">
+                    <h2>Empresas en Convenio</h2>
+                    <ul>
+                        <li>Salud S.A</li>
+                        <li>Asisken</li>
+                        <li>BMI</li>
+                        <li>Mediken</li>
+                        <li>Bupa</li>
+                        <li>Blue card</li>
+                    </ul>
                 </div>
-            </form>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="interactive-box">
+                    <h2>Beneficios del Seguro de Salud</h2>
+                    <ul>
+                        <li>Consultas de medicina general y especializada</li>
+                        <li>Hospitalización y cirugías programadas</li>
+                        <li>Servicios de maternidad y cuidados intensivos</li>
+                        <li>Terapias físicas y ocupacionales</li>
+                        <li>Programas de prevención y bienestar</li>
+                        <li>Exámenes médicos</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Start About Us Section -->
-    <section class="bg-light py-5">
-        <div class="container">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><span class="highlight-green-text">Sobre Nosotros</span></h1>
-                    <p>
-                        <strong> En Pili Brokers, nos dedicamos a brindar soluciones de seguros personalizadas que se adapten a las necesidades únicas de nuestros clientes. Con años de experiencia en la industria y un equipo de profesionales altamente capacitados, nos esforzamos por ofrecer el mejor servicio y la mayor tranquilidad a quienes confían en nosotros.</strong>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="interactive-box">
-                        <h2>Nuestra Historia</h2>
-                        <p>
-                           Pili Brokers con 25 años de experiencia ha crecido consistentemente gracias a nuestro compromiso con la excelencia y la atención personalizada. Desde nuestros inicios, hemos trabajado arduamente para construir relaciones sólidas con nuestras aseguradoras y clientes, permitiéndonos ofrecer una amplia gama de productos y servicios que satisfacen las necesidades cambiantes del mercado.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="interactive-box">
-                        <h2>Nuestra Misión</h2>
-                        <p>
-                            Nuestra misión es proporcionar a nuestros clientes soluciones de seguros integrales que les brinden seguridad y protección en todas las etapas de la vida. Creemos en la importancia de la prevención y el bienestar, y trabajamos para promover un estilo de vida saludable a través de nuestros programas y coberturas.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="interactive-box">
-                        <h2>Nuestros Valores</h2>
-                        <ul>
-                            <li><strong>Integridad:</strong> Actuamos con honestidad y transparencia en todo lo que hacemos.</li>
-                            <li><strong>Compromiso:</strong> Estamos dedicados a satisfacer las necesidades de nuestros clientes.</li>
-                            <li><strong>Innovación:</strong> Buscamos constantemente mejorar y ofrecer soluciones innovadoras.</li>
-                            <li><strong>Excelencia:</strong> Nos esforzamos por superar las expectativas en cada oportunidad.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-5">
-                <div class="col-md-6">
-                    <h2 class="highlight-green">Nuestra oficina</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8167566.337519596!2d-78.22358272482505!3d1.6964827221600838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d0d6cc22a9941%3A0x9644cff702d19876!2sUrbanizacion%20Tottori!5e0!3m2!1ses-419!2sec!4v1718757051116!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                
-                <div class="col-md-5 offset-md-1 mt-5 mt-md-0">
-                    <div class="interactive-box">
-                        <h2 class="highlight-green">¿Por qué elegir Pili Brokers?</h2>
-                        <p>Elegirnos significa optar por la confianza, la seguridad y el respaldo de un equipo comprometido con tu bienestar. Ofrecemos:</p>
-                        <ul>
-                            <li>Asesoría personalizada</li>
-                            <li>Amplia gama de productos de seguros</li>
-                            <li>Servicio al cliente excepcional</li>
-                            <li>Compromiso con la satisfacción del cliente</li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- End About Us Section -->
+    <!-- Start Footer -->
 
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
@@ -235,9 +228,9 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Más Información</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
                         <li><a class="text-decoration-none" href="sobre-nosotros.html">Sobre Nosotros</a></li>
-                        <li><a class="text-decoration-none" href="#">Servicios</a></li>
+                        <li><a class="text-decoration-none" href="servicios.html">Servicios</a></li>
                         <li><a class="text-decoration-none" href="#">Contacto</a></li>
                     </ul>
                 </div>
@@ -288,12 +281,15 @@
         </div>
 
     </footer>
+    <!-- End Footer -->
 
+    <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
 </body>
 
 </html>
