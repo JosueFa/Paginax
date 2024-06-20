@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Seguros de Salud</title>
+    <title>Contacto - Pili Brokers</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,79 +14,78 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
     <style>
-        /* Estilos para la barra deslizante */
-        .barra {
-            overflow: hidden;
-            background-color: #f8f9fa; /* Color de fondo de la barra */
-            padding: 20px 0; /* Aumenta el espacio interno de arriba y abajo para hacerla más grande */
-            display: flex;
-            justify-content: center; /* Centra los elementos horizontalmente */
+        /* Estilos adicionales específicos para esta página */
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        /* Estilos para los logos dentro de la barra */
-        .logos {
-            display: flex;
-            align-items: center; /* Centra verticalmente los logos */
+        .contact-info label {
+            font-weight: bold;
         }
-
-        .logos img {
-            height: 80px; /* Aumenta la altura de los logos para hacer la barra más grande */
-            margin-right: 40px; /* Aumenta el espacio horizontal entre logos */
+        .contact-info input[type="text"], .contact-info input[type="email"], .contact-info textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
-
-        /* Estilos para resaltar el texto en verde y negrita */
+        .contact-info textarea {
+            resize: none;
+            height: 150px;
+        }
+        .contact-info input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact-info input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .highlight-green {
+            color: #28a745;
+        }
+        .interactive-box {
+           background: #fff;
+           border: 1px solid #ddd;
+           padding: 20px;
+           margin-bottom: 20px;
+           transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
         .highlight-green-text {
             color: #28a745;
             font-weight: bold;
         }
-        h1, h2, h3, h4, h5, h6 {
-            color: #000; /* Cambia el color del texto a negro */
-            font-weight: bold; /* Hace que el texto sea negrita */
-        }
-
-        .interactive-box {
-            background: #fff;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-            border-radius: 5px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
 
         .interactive-box:hover {
-            background: #f8f9fa;
-            border-color: #00ff8c;
-            box-shadow: 0 6px 10px rgba(0, 123, 255, 0.2);
-            transform: translateY(-5px);
-        }
-
-        .interactive-box h2 {
-            color: #007bff;
-        }
-        .highlight-green-title {
-        font-weight: bold;
-         color: #28a745; /* Verde */
-        }
-
-      .highlight-bold-text {
-       font-weight: bold;
+        background: #f8f9fa;
+        border-color: #00ff8c;
+        box-shadow: 0 6px 10px rgba(0, 123, 255, 0.2);
+         transform: translateY(-5px);
        }
-
 
     </style>
 </head>
 
 <body>
+    <!-- Menú superior -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">pili.broker@gmail.com</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:pili.broker@gmail.com">pili.broker@gmail.com</a>
                     <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+593 96 362 6509</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+593963626509">+593 96 362 6509</a>
                 </div>
                 <div>
                     <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
@@ -97,6 +96,8 @@
             </div>
         </div>
     </nav>
+
+    <!-- Barra de navegación principal -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
@@ -118,10 +119,10 @@
                             <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="servicios.html"><span class="highlight-green-text">Servicios</span></a>
+                            <a class="nav-link" href="servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="contacto.html"><span class="highlight-green-text">Contacto</span></a>
                         </li>
                     </ul>
                 </div>
@@ -146,53 +147,57 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-12">
-                <img src="https://www.insuranceneighbor.com/wordpress/wp-content/uploads/2016/07/Life-Insurance-Slider-Image.png" class="img-fluid w-100" alt="Seguros de Salud">
+    <!-- Modal de búsqueda -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-12 text-center">
-                <h2 class="highlight-green-title">PROTEJA SU FAMILIA</h2>
-                <p class="highlight-bold-text"><strong>Este seguro de vida brinda un resguardo frente a una posible situación de apremios económicos y el/los beneficiarios recibirá una suma de dinero en caso de fallecimiento del asegurado de la póliza. Su obligación en este contrato es el pago de las primas, en la forma estipulada de antemano.</strong></p>
-            </div>
-        </div>
-        
-        
-        <div class="row mt-4">
-            <div class="col-12 col-md-6">
-                <div class="interactive-box">
-                    <h2>Empresas en Convenio</h2>
-                    <ul>
-                        <li>Salud S.A</li>
-                        <li>Asisken</li>
-                        <li>BMI</li>
-                        <li>Mediken</li>
-                        <li>Bupa</li>
-                        <li>Blue card</li>
-                    </ul>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
                 </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="interactive-box">
-                    <h2>Beneficios del Seguro de Salud</h2>
-                    <ul>
-                        <li>Consultas de medicina general y especializada</li>
-                        <li>Hospitalización y cirugías programadas</li>
-                        <li>Servicios de maternidad y cuidados intensivos</li>
-                        <li>Terapias físicas y ocupacionales</li>
-                        <li>Programas de prevención y bienestar</li>
-                        <li>Exámenes médicos</li>
-                    </ul>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 
-    <!-- Start Footer -->
+    <!-- Contenido de la página -->
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1 highlight-green"><b>¿Por qué elegir a Pili Brokers?</b></h1>
+                <p><strong>Elegirnos significa optar por la confianza, la seguridad y el respaldo de un equipo comprometido con tu bienestar.</strong>Te ofrecemos: </p>
+              <div class="interactive-box" style="padding: 20px; margin-top: 10px; text-align: right;">
+    <ul style="padding-left: 20px; text-align: left;">
+        <li style="text-align: left;"><strong>1.</strong> Asesoría personalizada</li>
+        <li style="text-align: left;"><strong>2.</strong> Amplia gama de productos de seguros</li>
+        <li style="text-align: left;"><strong>3.</strong> Servicio al cliente excepcional</li>
+        <li style="text-align: left;"><strong>4.</strong> Compromiso con la satisfacción del cliente</li>
+    </ul>
+</div>
 
-    <footer class="bg-dark" id="tempaltemo_footer">
+            </div>
+        </div>
+            
+        <div class="row py-5">
+            <div class="col-md-6">
+                <h2 class="highlight-green">Nuestra oficina</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8167566.337519596!2d-78.22358272482505!3d1.6964827221600838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d0d6cc22a9941%3A0x9644cff702d19876!2sUrbanizacion%20Tottori!5e0!3m2!1ses-419!2sec!4v1718757051116!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-5 offset-md-1 mt-5 mt-md-0">
+                <div class="interactive-box contact-info">
+                    <h2 class="highlight-green mt-5">Contáctanos por WhatsApp</h2>
+                  
+            </div>
+            
+    </section>
+
+    <!-- Footer -->
+     <!-- Footer -->
+     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
 
@@ -201,11 +206,11 @@
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Urb. Tottori, mz 577,Vll 2
+                            Urb. Tottori, mz 577,va 2
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:+593963626509">+593 96 362 6509</a>
+                            <a class="text-decoration-none" href="tel:+593963626509">+593 96 362 </a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
@@ -221,7 +226,6 @@
                         <li><a class="text-decoration-none" href="#">Cobertura de Hospitalización</a></li>
                         <li><a class="text-decoration-none" href="#">Cobertura de Consultas Médicas</a></li>
                         <li><a class="text-decoration-none" href="#">Atención Ambulatoria</a></li>
-
                     </ul>
                 </div>
 
@@ -272,7 +276,7 @@
                 <div class="row pt-2">
                     <div class="col-12">
                         <p class="text-left text-light">
-                            &copy; 2023 Pili Brokers. All Rights Reserved.
+                            &copy; 2024 Pili Brokers. All Rights Reserved.
                             <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
                         </p>
                     </div>
@@ -281,15 +285,12 @@
         </div>
 
     </footer>
-    <!-- End Footer -->
 
-    <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Scripts -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
     <script src="assets/js/custom.js"></script>
-    <!-- End Script -->
-</body>
 
+</body>
 </html>
